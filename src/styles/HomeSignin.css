@@ -1,0 +1,313 @@
+body{
+    width: 1512px;
+    height: 982px;
+}
+
+.homesigninheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.signinheaderright{
+    display: flex;
+    gap: 30px;
+}
+
+.signinheadercenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homesignincenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 100px;
+}
+
+.signincenterleft{
+    margin-top: -30px;
+}
+
+.signintitle{
+    width: 673px;
+    color: #AC7118;
+    font-family: Amaranth;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-change-color{
+    width: 673px;
+    color: black;
+    font-family: Amaranth;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 80px;
+}
+
+.signinmainText{
+    width: 608px;
+    height: 65px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 25px;
+}
+
+.signingetFreeTrialBtn{
+    margin-right: 30px;
+    background: rgba(172, 113, 24, 0.12);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 163px;
+    height: 53px;
+    border-radius: 10px;
+    border: none;
+    color: #AC7118;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.signingetFreeTrialBtn:hover{
+    background-color:#E4D1B6;
+}
+
+.signincenterright{
+    margin-right: 100px;
+}
+
+.signinmainImg{
+    width: 450px;
+    height: 482px;
+    padding-left: 30px;
+    flex-shrink: 0; 
+    border-radius: 100%;
+    box-shadow: 5px 5px 13px -10px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 5px 5px 13px -10px rgba(0,0,0,0.48);
+    -moz-box-shadow: 5px 5px 13px -10px rgba(0,0,0,0.48);
+}
+
+.homesigninfooter{
+    width: 1120px;
+    height: 300px;
+}
+
+.signincontainer{
+    display: flex;
+    align-items: center;
+    background: rgba(172, 113, 24, 0.12);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 295px;
+    margin-top: 50px;
+    width: 1010px;
+    height: 190px;
+    flex-shrink: 0;
+}
+
+.signingroup1{
+    width: 210px;
+    height: 70px;
+    flex-shrink: 0;
+    padding-left: 70px;
+    padding-top: 66px;
+    padding-bottom: 54px;
+}
+
+.signinbox1{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    background-color: white;
+}
+
+.signingroup1img{
+    width: 29px;
+    height: 28px;
+    padding-top: 21px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 21px;
+    flex-shrink: 0;
+    fill: black;
+}
+
+.signinnum1{
+    color: #AC7118;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 93px;
+    margin-top: -70px;
+    
+}
+
+.signindef1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 93px;
+    margin-top: 5px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.signingroup2{
+    width: 201px;
+    height: 72px;
+    flex-shrink: 0;
+    padding-left: 125px;
+    padding-top: 66px;
+    padding-bottom: 54px;
+}
+
+.signinbox2{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    background-color: white;
+}
+
+.signingroup2img{
+    width: 29px;
+    height: 26px;
+    padding-top: 24px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 24px;
+    flex-shrink: 0;
+    fill: black;
+}
+
+.signinnum2{
+    color: #AC7118;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 93px;
+    margin-top: -75px;
+}
+
+.signindef2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 93px;
+    margin-top: 5px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.signingroup3{
+    width: 201px;
+    height: 72px;
+    flex-shrink: 0;
+    padding-left: 175px;
+    padding-top: 66px;
+    padding-bottom: 54px;
+}
+
+.signinbox3{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    background-color: white;
+}
+
+.signingroup3img{
+    width: 28px;
+    height: 22px;
+    padding-top: 24px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 24px;
+    flex-shrink: 0;
+    fill: black;
+}
+
+.signinnum3{
+    color: #AC7118;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 93px;
+    margin-top: -75px;
+}
+
+.signindef3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 93px;
+    margin-top: 5px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.mainrec2box{
+    height: 200px;
+}
+
+.mainmininav2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 256px;
+    margin-right: 256px;
+    margin-bottom: 40px;
+}
+
+.mainmininav2 h{
+    color: #000;
+    text-align: center;
+    font-family: Amaranth;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 157px;
+}
+
+.mainmininav2 h1{
+    color: #000;
+    text-align: center;
+    font-family: Amaranth;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 152px;
+}

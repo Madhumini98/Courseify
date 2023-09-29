@@ -1,0 +1,94 @@
+h3{
+    color: #AC7118;
+    font-family: Amaranth;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+label, input{
+    display: block;
+}
+
+label{
+    color: #000000;
+    font-family: Amaranth;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+form button{
+    border-radius: 59px;
+    background: #AC7118;
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Amaranth;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+div.error{
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid #e7195a;
+    color: #e7195a;
+    border-radius: 4px;
+    margin: 20px 0;
+    font-family: Amaranth;
+    font-size: 15px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 50;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+select option {
+    background-color: #fff;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+input.error {
+    border: 1px solid #e7195a;
+}
+
+select.error {
+    border: 1px solid #e7195a;
+}

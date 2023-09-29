@@ -1,0 +1,11 @@
+.profilepic{
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.profilepic:hover{
+    transform: scale(1.09);
+}

@@ -1,0 +1,89 @@
+.active{
+    pointer-events: none;
+}
+
+.home{
+    color: #0E0828;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.home:hover{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.courses{
+    color: #0E0828;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.courses:hover{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.tutors{
+    color: #0E0828;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tutors:hover{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.roadmaps{
+    color: #0E0828;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.roadmaps:hover{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.contact{
+    color: #0E0828;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact:hover{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.navbarcourseify{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 72px;
+}

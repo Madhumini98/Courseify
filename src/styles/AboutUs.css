@@ -1,0 +1,109 @@
+body{
+    width: 1512px;
+    background: #FCFBF8;
+    height: auto;
+}
+
+.auheader{
+    display: flex;
+    margin: 20px 100px;
+}
+
+.auheadertextmain{
+    align-items: center;
+    display: flex;
+    width: 592px;
+    height: 51px;
+    flex-shrink: 0;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.auheadertext{
+    color: #0E0828;
+    font-family: Amaranth;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.auheaderright{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 400px;
+}
+
+.aucenterleft{
+    width: 811px;
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 80px 120px;
+}
+
+.aucenterpart{
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+}
+
+.aucenterright{
+    flex: 1;
+    display: flex;
+    flex-direction: row; /* Change the direction to stack items vertically */
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.aucenterleft{
+    flex: 1.5;
+}
+
+/* card  */
+.a-card{
+    width: 110px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(172, 113, 24, 0.12);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 32px 44px 32px 44px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+} 
+
+.a-card h2{
+    color: #AC7118;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.a-card p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aufooter{
+    padding-top: 20px;
+    color: #ac7118;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-left: 650px;
+    font-size: 35px;
+    padding-bottom: 80px;
+}

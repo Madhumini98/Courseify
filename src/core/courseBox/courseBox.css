@@ -1,0 +1,53 @@
+.course{
+    width: 100%;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(172, 113, 24, 0.12);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box{
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: 34px;
+}
+
+.vector img{
+    width: 47.953px;
+    height: 48px;
+    flex-shrink: 0;
+    padding: 19px;
+}
+
+.ctext{
+    margin-left: 20px;
+}
+
+.coursetext{
+    color: #000;
+    font-family: Amaranth;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtext{
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.course:hover{
+    transform: scale(1.03);
+}

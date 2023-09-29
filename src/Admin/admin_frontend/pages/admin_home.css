@@ -1,0 +1,27 @@
+.adminHeader{
+    display: flex;
+    align-items: center;
+}
+
+.adminHeader p{
+    width: 592px;
+    height: 51px;
+    flex-shrink: 0;
+    color: #0E0828;
+    font-family: Amaranth;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.adminBody{
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    gap: 100px;
+}
+
+.footer{
+    height: 300px;
+}

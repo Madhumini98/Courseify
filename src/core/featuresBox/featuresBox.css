@@ -1,0 +1,44 @@
+.feature{
+    width: 218px;
+    height: 341px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(172, 113, 24, 0.12);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.featureimg{
+    flex-shrink: 0;
+    fill: #000;
+}
+
+.fline{
+    width: 160px;
+    height: 2px;
+    background: #1D1D3B;
+    margin-left: 29px;
+}
+
+.fheading{
+    color: #AC7118;
+    text-align: center;
+    font-family: Amaranth;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 18px;
+}
+
+.ftext{
+    color: #000;
+    text-align: center;
+    font-family: Amaranth;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+}

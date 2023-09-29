@@ -1,0 +1,51 @@
+.course-details{
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-left: 100px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.course-details h4{
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    color: #ac7118;
+    font-family: Amaranth;
+    font-weight: 600;
+}
+
+.course-details p{
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #000000;
+    font-family: Amaranth;
+    font-weight: 100;
+}
+
+.linktocourse {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-family: Amaranth;
+    color: #000000; /* Change the text color to blue */
+    text-decoration: underline; /* Add an underline to the link */
+    font-weight: 150; /* Make the link text bold */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+  }
+  
+  .linktocourse:hover {
+    color: #0056b3; /* Change the text color on hover */
+  }
+
+  .course-details span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #f1f1f1;
+    padding: 6px;
+    border-radius: 50%;
+    color: #333;
+  }

@@ -1,0 +1,120 @@
+BODY{
+    width: 1512px;
+    height: 982px;
+}
+
+.homecourseHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.hcheaderright{
+    display: flex;
+    gap: 30px;
+}
+
+.hcheadercenter{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.hctitle{
+    width: 681px;
+    height: 51px;
+    flex-shrink: 0;
+    padding-left: 30px;
+}
+
+.text1{
+    color: #0E0828;
+    font-family: Amaranth;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lngtxt{
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+
+.longsearchbar{
+    width: 1103px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: rgba(172, 113, 24, 0.12);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 205px;
+    align-items: center;
+    display: flex;
+}
+
+#serachIcon2{
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #856029;
+    padding-left: 15px;
+}
+
+.SearchBox2-main{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.SearchBox2-main:focus{
+    outline: none;
+} 
+
+.hclistofcourses{
+    display: flex;
+    justify-content: space-between;
+    width: 1287px;
+    height: 500px;
+    flex-shrink: 0;
+    padding-left: 113px;
+    padding-right: 113px;
+    padding-top: 70px;
+    margin-bottom: 150px;
+} 
+
+.hcline1{
+    width: 399px;
+    height: 532px;
+    flex-shrink: 0;
+}
+
+.hcline2{
+    width: 399px;
+    height: 532px;
+    flex-shrink: 0;
+}
+
+.hcline3{
+    width: 399px;
+    height: 532px;
+    flex-shrink: 0;
+}
